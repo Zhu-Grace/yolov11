@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['ball', 'person']
+
+roboflow:
+  workspace: tennis-1mkta
+  project: tennis-efsxa
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tennis-1mkta/tennis-efsxa/dataset/2
